@@ -1,0 +1,249 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  width: 600px;
+  height: 350px;
+  margin: 0 auto;
+  background: white;
+  box-shadow: 0 0 10px black;
+  #main {
+    margin-top: 80px;
+    height: 100%;
+    width: 100%;
+
+    .headtag {
+      height: 40px;
+      // background: yellow;
+
+      .addtaghead {
+        height: 40px;
+        line-height: 40px;
+        padding-left: 15px;
+
+
+        .topadd {
+          height: 40px;
+          float: left;
+          position: relative;
+          
+          .btadd{
+            line-height: 40px;
+            &:hover{
+              color: grey;
+            }
+          }
+          .changetag {
+            width: 350px;
+            height: 250px;
+            box-shadow: 0 0 5px black;
+            .itemhead {
+              height: 50px;
+              text-align: center;
+              line-height: 50px;
+              // background: chocolate;
+              font-size: 18px;
+              border-bottom: 2px solid black;
+            }
+      
+            .iteminput {
+              height: 60px;
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              // background: chartreuse;
+      
+              .itemin {
+                
+                height: 40px;
+                width: 250px;
+      
+              }
+            }
+      
+            .itemchange{
+              display: flex;
+              width: 100%;
+              height: 60px;
+              justify-content: space-around;
+              align-items: center;
+              position: relative;
+      
+              .itemradio {
+                position: absolute;
+                width: 0;
+                height: 0;
+              }
+      
+              .itemlabel {
+                display: block;
+                height: 35px;
+                width: 35px;
+                border-radius: 20px;
+                text-align: center;
+                line-height: 35px;
+              }
+            }
+      
+            .itemselect {
+              display: flex;
+              justify-content: space-around;
+      
+              .bt {
+                height: 50px;
+                width: 150px;
+                border-radius: 5px;
+              }
+      
+              .bt1 {
+                border: 2px solid red;
+              }
+      
+              .bt2 {
+                border: none;
+                background: cyan;
+              }
+            }
+          }
+          .addtag {
+            position: absolute;
+            left: 0;
+            top: 40px;
+            width: 300px;
+            box-shadow: 0 0 5px black;
+            .createtag{
+              position: relative;
+              .itemed {
+                display: flex;
+                width: 100%;
+                height: 60px;
+                justify-content: space-around;
+                align-items: center;
+                position: relative;
+                .itemradio {
+                  position: absolute;
+                  width: 0;
+                  height: 0;
+                }
+                .itemlabel {
+                  display: block;
+                  height: 35px;
+                  width: 35px;
+                  border-radius: 20px;
+                  text-align: center;
+                  line-height: 35px;
+                }
+              }
+              .itembt{
+                width: 200px;
+                height: 50px;
+                margin: 10px auto;
+                .bt{
+                  width: 200px;
+                height: 50px;
+                border-radius: 20px;
+                }
+              }
+            }
+            .itemlist {
+              height: 40px;
+              position: relative;
+
+              &:hover {
+                background: grey
+              }
+
+              .item1 {
+                position: absolute;
+                height: 10px;
+                width: 10px;
+                border-radius: 10px;
+                left: 10px;
+                top: 50%;
+                transform: translateY(-50%);
+              }
+
+              .item2 {
+                position: absolute;
+                left: 40px;
+                height: 40px;
+                line-height: 40px;
+              }
+
+              .item3 {
+                position: absolute;
+                right: 40px;
+                height: 40px;
+                line-height: 40px;
+              }
+
+              .item4 {
+                position: absolute;
+                right: 0;
+                height: 40px;
+                line-height: 40px;
+              }
+            }
+          }
+        }
+      }
+
+      .item {
+        float: left;
+        height: 30px;
+        margin: 5px;
+        min-width: 30px;
+        border-radius: 30px;
+        padding-left: 14px;
+        padding-right: 14px;
+        line-height: 30px;
+        transition: all .5s;
+        position: relative;
+
+        &:hover {
+          padding-right: 30px;
+        }
+
+        .delete {
+          position: absolute;
+          right: 0;
+          top: 0;
+          visibility: hidden;
+          transition: all .5s;
+        }
+
+        &:hover .delete {
+          visibility: visible;
+        }
+      }
+    }
+  }
+}
+
+.b1 {
+  background: chocolate;
+}
+
+.b2 {
+  background: cyan;
+}
+
+.b3 {
+  background: greenyellow;
+}
+
+.b4 {
+  background: darkorchid;
+}
+
+.b5 {
+  background: gold;
+}
+
+.b6 {
+  background: hotpink;
+}
+
+.b7 {
+  background: khaki;
+}
