@@ -33,8 +33,6 @@ class Add extends React.Component {
       // ---------------是否正在修概述局，调出数据修改框
       rewriting: false,
 
-      // ———————————————————这个是一个头部文件
-
       //标签编辑模板
       adding: false,
     };
@@ -144,7 +142,11 @@ class Add extends React.Component {
       <div  className="addtaghead">
         <div className="topadd">
         {
-          this.state.tagindex===0?<div onClick={(e) => this.addCom(e)}>添加标签</div>:<PlusCircleFilled style={{fontSize:"25px"}} onClick={(e) => this.addCom(e)} className="btadd"/>
+          this.state.tags.some((item)=>{
+            if(item.isadd){
+              return true
+            }
+          })?<PlusCircleFilled style={{fontSize:"25px"}} onClick={(e) => this.addCom(e)} className="btadd"/>:<div onClick={(e) => this.addCom(e)}>添加标签</div>
         }
           {this.state.adding
             ? this.state.rewriting
@@ -208,9 +210,12 @@ class Add extends React.Component {
     this.findtag(e.target.value);
   }
   findtag(msg) {
+    console.log("ddsad----------------")
     if (msg === "") {
+      console.log("ddsaddsadasdas----------------")
       this.setState({
         tagsshow: this.state.tags,
+        istaghave:true
       });
     } else {
       let arr = [];
