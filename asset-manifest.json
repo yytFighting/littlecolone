@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/littlecolone/static/css/main.b0e79027.chunk.css",
+    "main.js": "/littlecolone/static/js/main.dcf2125d.chunk.js",
+    "main.js.map": "/littlecolone/static/js/main.dcf2125d.chunk.js.map",
+    "runtime-main.js": "/littlecolone/static/js/runtime-main.9ae2e68e.js",
+    "runtime-main.js.map": "/littlecolone/static/js/runtime-main.9ae2e68e.js.map",
+    "static/css/2.fb92a525.chunk.css": "/littlecolone/static/css/2.fb92a525.chunk.css",
+    "static/js/2.c0fa6539.chunk.js": "/littlecolone/static/js/2.c0fa6539.chunk.js",
+    "static/js/2.c0fa6539.chunk.js.map": "/littlecolone/static/js/2.c0fa6539.chunk.js.map",
+    "index.html": "/littlecolone/index.html",
+    "precache-manifest.ae92a745ab2f828cd2254414de6fad29.js": "/littlecolone/precache-manifest.ae92a745ab2f828cd2254414de6fad29.js",
+    "service-worker.js": "/littlecolone/service-worker.js",
+    "static/css/2.fb92a525.chunk.css.map": "/littlecolone/static/css/2.fb92a525.chunk.css.map",
+    "static/css/main.b0e79027.chunk.css.map": "/littlecolone/static/css/main.b0e79027.chunk.css.map",
+    "static/js/2.c0fa6539.chunk.js.LICENSE.txt": "/littlecolone/static/js/2.c0fa6539.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9ae2e68e.js",
+    "static/css/2.fb92a525.chunk.css",
+    "static/js/2.c0fa6539.chunk.js",
+    "static/css/main.b0e79027.chunk.css",
+    "static/js/main.dcf2125d.chunk.js"
+  ]
+}
